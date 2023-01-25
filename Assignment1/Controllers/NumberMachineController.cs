@@ -10,10 +10,10 @@ namespace Assignment1.Controllers
     public class NumberMachineController : ApiController
     {
         /// <summary>
-        /// This method returns the calculation of input {id}
+        /// This method returns several steps of calculation of input number {id}.
         /// </summary>
         /// <param name="id">input number</param>
-        /// <returns>Math.Sqrt((id*id)- (id + 10) / 5 )</returns>
+        /// <returns>Math.Sqrt(({id}*{id})- ({id} + 10) / 5 )</returns>
         /// <example>
         /// GET: api/NumberMachine/10      --> 9.7979589711327115
         /// </example>

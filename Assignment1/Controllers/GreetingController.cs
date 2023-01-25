@@ -23,9 +23,9 @@ namespace Assignment1.Controllers
 
 
         /// <summary>
-        /// This method returns the string "Greetings to {id} people!" where id is an integer value.
+        /// This method returns the string "Greetings to {id} people!" where id is an input number of people.
         /// </summary>
-        /// <param name="id">input number</param>
+        /// <param name="id">input number of people</param>
         /// <returns>A string which is "Greetings to {id} people!"</returns>
         /// <example>
         /// GET: api/Greeting/3     --> Greetings to 3 people!

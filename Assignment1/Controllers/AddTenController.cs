@@ -14,7 +14,7 @@ namespace Assignment1.Controllers
         /// This method returns 10 more than the integer input {id}
         /// </summary>
         /// <param name="id">input number</param>
-        /// <returns>input number add 10 which the expression is (id+10)</returns>
+        /// <returns>input number add 10 which the expression is ({id}+10)</returns>
         /// <example>
         /// GET: api/AddTen/21  -->  31
         /// </example>

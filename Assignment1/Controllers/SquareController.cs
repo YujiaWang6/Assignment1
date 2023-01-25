@@ -14,7 +14,7 @@ namespace Assignment1.Controllers
         /// This method returns the square of the integer input {id}
         /// </summary>
         /// <param name="id">input number</param>
-        /// <returns>the square of the input, which is the input number times the input number. The expression is (id*id)</returns>
+        /// <returns>the square of the input, which is the input number times the input number. The expression is ({id}*{id})</returns>
         /// <example>
         /// GET: api/Square/2     -->  4
         /// </example>
